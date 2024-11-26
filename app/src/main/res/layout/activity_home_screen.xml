@@ -1,0 +1,79 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/homescreen">
+
+    <!-- Welcome Header -->
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to BusBookingApp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <!-- Search Buses Button -->
+    <Button
+        android:id="@+id/btn_search_buses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search for Buses"
+        android:backgroundTint="#0E5EEB"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/tv_welcome"
+        android:layout_marginTop="16dp" />
+
+    <!-- View Bookings Button -->
+    <Button
+        android:id="@+id/btn_view_bookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View My Bookings"
+        android:backgroundTint="#0E5EEB"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/btn_search_buses"
+        android:layout_marginTop="16dp" />
+
+    <!-- Account Section -->
+    <Button
+        android:id="@+id/btn_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/btn_view_bookings"
+        android:layout_marginTop="16dp" />
+
+    <!-- Offers Section (Optional) -->
+
+    <!-- Logout Button -->
+
+    <TextView
+        android:id="@+id/tv_offers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_account"
+        android:layout_marginTop="356dp"
+        android:layout_marginBottom="8dp"
+        android:text="Check out our latest offers!"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="#EF053B"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

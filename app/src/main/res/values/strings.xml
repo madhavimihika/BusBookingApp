@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Bus Booking App</string>
+    <string name="fab_description">Find nearest bus</string>
+    <string name="map_view_description">Interactive map to view buses</string>
+    <string-array name="departure_locations">
+        <item>Select Departure</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Kagalle</item>
+        <item>Kurunegala</item>
+        <item>Jaffna</item>
+        <item>Anuradhapura</item>
+        <item>Kandy</item>
+        <item>Mathara</item>
+    </string-array>
+    <string-array name="destination_locations">
+        <item>Select Departure</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Kagalle</item>
+        <item>Kurunegala</item>
+        <item>Jaffna</item>
+        <item>Anuradhapura</item>
+        <item>Kandy</item>
+        <item>Mathara</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/searchbus2">
+
+    <!-- Departure Location -->
+    <TextView
+        android:id="@+id/tv_departure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departure Location"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:background="#80FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinner_departure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_departure"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown" />
+
+    <!-- Destination -->
+    <TextView
+        android:id="@+id/tv_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_below="@id/spinner_departure"
+        android:layout_marginBottom="8dp"
+        android:background="#80FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinner_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_destination"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"
+        android:spinnerMode="dropdown" />
+
+    <!-- Travel Date -->
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Date"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_below="@id/spinner_destination"
+        android:layout_marginBottom="8dp"
+        android:background="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_date"
+        android:layout_marginBottom="16dp"
+        android:autoSizeMaxTextSize="25dp"
+        android:focusable="false"
+        android:hint="Select Date"
+
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textSize="14sp" />
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btn_search_buses"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:text="Search for Buses" />
+
+</RelativeLayout>

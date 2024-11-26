@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/searchbus1"> <!-- Set background image here -->
+
+    <!-- Title -->
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <!-- User Profile Information -->
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: Madhavi Mihika"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: mihikamadhavi123@gmail.com"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_username"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: 0112345678"
+        android:textSize="20sp"
+        android:layout_below="@id/tv_email"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Edit Button -->
+
+    <!-- Logout Button -->
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_phone"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="#6200EE"
+        android:text="Edit Profile"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_edit"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="#D32F2F"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="123dp"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/pp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
